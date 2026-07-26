@@ -1,5 +1,15 @@
-document.querySelector("button").onclick=function(){
+const button = document.querySelector("button");
 
-alert("ResumeBook AI Coming Soon...");
+button.onclick = () => {
+
+button.innerHTML = "Opening Resume...";
+
+button.style.transform = "scale(.95)";
+
+setTimeout(()=>{
+
+window.location.href="about.html";
+
+},1200);
 
 }
