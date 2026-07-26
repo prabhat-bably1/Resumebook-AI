@@ -146,3 +146,184 @@ transform:translateY(0);
 }
 
 }
+/* Gold Resume Heading */
+
+h2{
+
+font-size:40px;
+
+background:linear-gradient(90deg,#FFD700,#FFF5B7,#FFD700);
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+letter-spacing:10px;
+
+margin-bottom:20px;
+
+text-shadow:0 0 20px rgba(255,215,0,.4);
+
+}
+
+/* Name */
+
+h1{
+
+font-size:42px;
+
+font-weight:700;
+
+line-height:55px;
+
+color:white;
+
+}
+
+/* Professional Text */
+
+p{
+
+font-size:20px;
+
+color:#ddd;
+
+}
+
+/* Button */
+
+button{
+
+width:100%;
+
+padding:18px;
+
+font-size:22px;
+
+font-weight:bold;
+
+border:none;
+
+border-radius:50px;
+
+background:linear-gradient(90deg,#FFD700,#F5C518);
+
+color:#111;
+
+cursor:pointer;
+
+box-shadow:0 0 25px rgba(255,215,0,.5);
+
+transition:.4s;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 40px gold;
+
+}
+
+/* Tap */
+
+.tap{
+
+margin-top:25px;
+
+font-size:16px;
+
+letter-spacing:3px;
+
+color:white;
+
+animation:blink 1.5s infinite;
+
+}
+
+@keyframes blink{
+
+50%{
+
+opacity:.3;
+
+}
+
+}
+
+/* Background Particles */
+
+.particles span{
+
+position:absolute;
+
+width:6px;
+
+height:6px;
+
+background:white;
+
+border-radius:50%;
+
+animation:move 12s linear infinite;
+
+opacity:.4;
+
+}
+
+.particles span:nth-child(1){
+
+left:10%;
+
+animation-delay:0s;
+
+}
+
+.particles span:nth-child(2){
+
+left:30%;
+
+animation-delay:2s;
+
+}
+
+.particles span:nth-child(3){
+
+left:50%;
+
+animation-delay:4s;
+
+}
+
+.particles span:nth-child(4){
+
+left:70%;
+
+animation-delay:6s;
+
+}
+
+.particles span:nth-child(5){
+
+left:90%;
+
+animation-delay:8s;
+
+}
+
+@keyframes move{
+
+0%{
+
+transform:translateY(100vh);
+
+}
+
+100%{
+
+transform:translateY(-100px);
+
+}
+
+}
