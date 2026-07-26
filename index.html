@@ -5,47 +5,77 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ResumeBook AI</title>
+<title>ResumeBook AI | Prabhat Ranjan Seth</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="cover.css">
 
 </head>
 
 <body>
 
-<div class="overlay">
+<div class="background"></div>
 
-<div class="card">
+<div class="container">
 
-<img src="profile.jpg" class="profile">
+<div class="glass">
 
-<h2>RESUME</h2>
+<div class="photo">
 
-<h1>Prabhat Ranjan Seth</h1>
+<img src="profile.jpg" alt="Prabhat Ranjan Seth">
 
-<p>Digital ResumeBook AI</p>
+</div>
 
-<button>Open Resume</button>
-  <p class="tap">Tap to Begin</p>
+<h3 class="resume">
 
-<div class="particles">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
+RESUME
+
+</h3>
+
+<h1>
+
+Prabhat Ranjan Seth
+
+</h1>
+
+<p>
+
+Professional Digital ResumeBook
+
+</p>
+
+<button onclick="openResume()">
+
+OPEN RESUME
+
+</button>
+
 </div>
 
 </div>
 
-</div>
+<div class="circle c1"></div>
 
-<script src="script.js"></script>
+<div class="circle c2"></div>
+
+<div class="circle c3"></div>
+
+<script>
+
+function openResume(){
+
+window.location.href="resume.html";
+
+}
+
+</script>
 
 </body>
 
